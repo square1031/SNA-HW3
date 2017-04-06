@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Just a homework</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navhead" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Gas</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Loves</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Full Width Image Header -->
+    <header id="header-i" class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h1>Life of Coding</h1>
+                <h3>And More Cats</h3>
+            </div>
+        </div>
+    </header>
+    <!-- Page Content -->
+    <div class="container">
+        <hr class="featurette-divider">
+        <!-- First Featurette -->
+        <div class="featurette" id="about">
+            <img id="ab1" class="featurette-image img-circle img-responsive pull-right" src="">
+            <h2 class="featurette-heading">人生
+                <span class="text-muted">就是不斷的Coding。</span>
+            </h2>
+            <p class="lead">這是一個關於我，以及很多貓的網頁。</p>
+        </div>
+        <hr class="featurette-divider">
+        <!-- Second Featurette -->
+        <div class="featurette" id="services">
+            <img id="ab2" class="featurette-image img-circle img-responsive pull-left" src="">
+            <h2 class="featurette-heading">Practice
+                <span class="text-muted">Make Perfect.</span>
+            </h2>
+            <p class="lead">Learned language:C,C++,python,HTML,CSS,javascript,jQuery and PHP. Still keep practicing.</p>
+        </div>
+        <hr class="featurette-divider">
+        <!-- Third Featurette -->
+        <div class="featurette" id="contact">
+            <img id="ab3" class="featurette-image img-circle img-responsive pull-right" src="">
+            <h2 class="featurette-heading">Cats
+                <span class="text-muted">Is The Most Wonderful Thing In The World.</span>
+            </h2>
+            <p class="lead">Look at this site. Cats is <strong>EVERYWHERE</strong>.</p>
+        </div>
+        <hr class="featurette-divider">
+  <!--       <div id="message">
+            <h1>留言給我</h1>
+            <form>
+                <div>
+                    <input type="text" id="name" placeholder="Name" />
+                </div>
+                <div>
+                    <textarea id="comment" rows="3" cols="30" placeholder="Comment"></textarea>
+                </div>
+                <button type="submit">COMMENT</button>
+            </form>
+            <div id="comments"></div>
+            <ul>
+                <li><a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a></li>
+            </ul>
+        </div> -->
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p><i class="fa fa-github fa-3x" aria-hidden="true"></i> Gas &copy; 2017</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- /.container -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBlmjJjs0AnGL_CUYFQM3P5RqdctTnfiMs",
+        authDomain: "homework3-d6280.firebaseapp.com",
+        databaseURL: "https://homework3-d6280.firebaseio.com",
+        storageBucket: "homework3-d6280.appspot.com",
+        messagingSenderId: "255720970811"
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
